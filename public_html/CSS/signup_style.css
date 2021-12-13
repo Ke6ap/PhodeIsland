@@ -1,0 +1,62 @@
+@font-face {
+	font-family: 'Danae';
+	src:  url('Font/danae.woff2') format('woff2'),
+		  url('Font/danae.woff') format('woff');
+}
+
+*{
+	color: orange;
+	font-family: 'Danae', Times, serif, Helvetica;
+}
+
+
+html, body{
+	min-height: 100%;
+}
+
+
+body {
+	background:url(images/SignUp/floorplan.png) no-repeat center;
+	background-size: cover;
+}
+
+.form-container{
+	border: 1px solid black;
+	padding: 50px 60px;
+	/* margin-top: 20vh; */
+	margin-bottom: 20%;
+	margin-top: 20%;
+	-webkit-box-shadow: -1px 4px 26px 11px #000000;
+	-moz-box-shadow: -1px 4px 26px 11px black;
+	box-shadow: -1px 4px 26px 11px #000000;
+}
+
+#button-{
+	background-color: orange;/* #733405;*/
+	border: 1px solid  orange;/*#733405;*/
+}
+
+#button-:hover{
+	opacity: 0.85;
+	/* border: 1px solid  grey;
+	background-color:  grey; */
+	transition: 0.3s ease-out;
+}
+
+#reg{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: underline black;
+}
+
+
+h6 a{
+	text-decoration: none;
+	/* font-weight: bold; */
+	color: orange;
+}
+
+h6 a:hover{
+	color: orange;
+	font-weight: bold;
+}

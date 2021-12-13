@@ -1,0 +1,196 @@
+@font-face {
+	font-family: 'Danae';
+	src:  url('Font/danae.woff2') format('woff2'),
+		  url('Font/danae.woff') format('woff');
+}
+
+*{
+	font-family: 'Danae', Times, serif, Helvetica;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+#logo{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	left: 3%;
+	top: -21px;
+}
+
+.navbar{
+	padding: .8rem;
+}
+
+.navbar-custom{
+	background-color:black;
+}
+
+.navbar-nav li{
+	padding-right: 15px;
+	color: white;
+
+}
+
+.nav-link{
+	font-size:  1.1em;
+}
+
+.main-image{
+	position: relative;
+	background-color: black;
+	background: url(images/Carousel/mikri3.jpg) center;
+	background-size: cover;
+	height: 500px;
+	overflow: hidden;
+}
+
+.banner-container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+	font-weight: 700px;
+}
+
+.banner-container h1{
+	margin: 0px;
+	font-size: 70px;
+}
+
+.banner-container h1 span{
+	border:6px solid white;
+	padding: 6px 14px;
+	display: inline-block;
+}
+
+.cen{
+	margin:20px;
+	display: block;
+	font-size: 26px;
+}
+.button{
+	color: black;
+	padding: 10px 24px;
+	background: white;
+	text-decoration: none;
+	border-radius: 12px;
+	transition: .4s;
+}
+
+.button:hover{
+	opacity: .8;
+	color:#000000;
+	text-decoration: none;
+}
+
+#info{
+	margin: 10px;
+}
+
+#menu-items{
+	text-align: center;
+	margin: 10px;
+}
+
+#menu{
+	text-align: center;
+}
+
+.Section-names{
+	/*underline sto text kai me to position th xamlwnoume kialo*/
+	text-decoration: underline 1px solid black;
+	text-underline-position: under;
+}
+
+.food-card:hover{
+	box-shadow: 0px 10px 13px -7px #000000, 50px 3px 15px 2px rgba(0,0,0,0);
+	transition: 0.3s ease-out;
+}
+
+.food-card a{
+	border: 1px solid black;
+	color: #000000;
+}
+
+.food-card a:hover{
+	background-color: #000000;
+	color: white;
+	transition: 0.3s ease-out;
+}
+
+.social-icons-wrapper .social{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+.social-icons-wrapper .social{
+	padding-top:3.5%;
+}
+
+.social-icons-wrapper .social a{
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.4);
+  margin: 10px 10px 20px 10px;
+  color: white;
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+}
+
+.social-icons-wrapper .social a:hover:nth-child(1){
+	border: 2px solid #4267B2;
+	box-shadow: 0px 0px 0px 1px rgb(66, 103, 178);
+	opacity: 0.9;
+	color:#4267B2;
+}
+.social-icons-wrapper .social a:hover:nth-child(2){
+	border: 2px solid  rgb(193,53,132);
+	box-shadow: 0px 0px 0px 1px rgb(193,53,132);
+	opacity: 0.9;
+	color:rgb(193,53,132);
+}
+.social-icons-wrapper .social a:hover:nth-child(3){
+	border: 2px solid #FF0000;
+	box-shadow: 0px 0px 0px 1px rgb(255, 0, 0);
+	opacity: 0.9;
+	color:#FF0000;
+}
+
+footer{
+	color: white;
+	background-color:  #2F2E2D;
+}
+
+.light{
+	color:white;
+	border-top: 1px solid white;
+}
+
+@media screen and (max-width: 767px) {
+	.comment-image {
+	  display: none;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	.food-card {
+	  margin-top: 12px;
+	}
+  }
+
+

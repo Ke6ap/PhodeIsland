@@ -1,0 +1,118 @@
+@font-face {
+	font-family: 'Danae';
+	src:  url('Font/danae.woff2') format('woff2'),
+		  url('Font/danae.woff') format('woff');
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+	font-family: 'Danae', Times, serif, Helvetica;
+}
+
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/back2.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.return button{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+}
+
+.return button{
+
+    border-style: none;
+    background: none;
+    display:inline-block;
+    cursor:pointer;
+    color:white;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+}
+.return button:hover {
+    border-bottom: 1px solid white;
+}
+
+
+
+.card-container{
+    display: grid;
+    grid-template-columns: 420px 420px;
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+    background: url("images/ser.jpg") center/cover no-repeat;
+}
+.banner h2{
+    color: beige;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+.card-content{
+    background: beige;
+    height: 330px;
+}
+.card-content h3{
+    text-align: center;
+    color: #000;
+    padding: 25px 0 10px 0;
+    font-size: 26px;
+    font-weight: 500;
+}
+.form-row{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    font-weight: 300;
+    background-color: beige;
+}
+
+
+form input[type = text], form input[type = number], form input::placeholder, select{
+    color: black;
+}
+
+form input[type = submit]{
+    color: #fff;
+    background: brown;
+    padding: 12px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form input[type = submit]:hover{
+    opacity: 0.9;
+}
+
+@media(max-width: 992px){
+    .card-container{
+        grid-template-columns: 100%;
+        width: 100vw;
+    }
+    .card-img{
+        height: 330px;
+    }
+}

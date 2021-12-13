@@ -1,0 +1,74 @@
+@font-face {
+	font-family: 'Danae';
+	src:  url('Font/danae.woff2') format('woff2'),
+		  url('Font/danae.woff') format('woff');
+}
+
+*{
+	font-family: 'Danae', Times, serif, Helvetica;
+}
+
+html, body{
+	min-height: 100%;
+}
+
+body {
+	background: url("images/commentback.jpg") no-repeat center;
+	background-size: cover;
+}
+
+#logo{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	left: 3%;
+	top: -21px;
+}
+
+.navbar{
+	padding: .8rem;
+}
+
+.navbar-custom{
+	background-color:black;
+}
+
+.navbar-nav li{
+	padding-right: 15px;
+	color: white;
+
+}
+
+.nav-link{
+	font-size:  1.1em;
+}
+
+h1{
+	border-bottom: 2px solid black;
+	color:black;
+}
+
+.comment-box{
+	border: 1px solid black;
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 4px;
+	background-color: none;
+	border-radius: 8px;
+}
+
+.comment-box h4{
+	word-wrap: break-word;
+}
+
+.del-form button{
+    color: white;
+    background-color: brown;
+    opacity: 0.8;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.del-form button:hover{
+    opacity: 1;
+}
