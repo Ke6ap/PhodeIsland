@@ -80,11 +80,13 @@
                 echo "<h4>";
                     echo $row['comment']."<br>";
                 echo "</h4>";
-                echo "<form class='del-form' method='POST' action='".deleteCommentsUser($con)."'>
+                echo "<form class='del-form' method='POST' action='".@deleteCommentsUser($con)."'>
                         <input type='hidden' name='id' value='".$row['id']."'>
                         <button type='submit' name='commentDelete'>Delete</button>
                     </form>";
             echo "</div>";
+
+            //to @ einai gia na kanei ignore ta warnings sto delete
         }
 
     }
