@@ -110,7 +110,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Salads</h4>
                             <p class="card-text">Our salads are great</p>
-                            <a href="menu.html #salad" class="btn btn-outline-secondary">See All</a>
+                            <a href="adminmenu.php#salad" class="btn btn-outline-secondary">See All</a>
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Grill</h4>
                             <p class="card-text">Our grill is great</p>
-                            <a href="menu.html #steak" class="btn btn-outline-secondary">See All</a>
+                            <a href="adminmenu.php#steak" class="btn btn-outline-secondary">See All</a>
                         </div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Sea Food</h4>
                             <p class="card-text">Our sea food is great</p>
-                            <a href="menu.html #seaF" class="btn btn-outline-secondary ">See All</a>
+                            <a href="adminmenu.php#seaF" class="btn btn-outline-secondary ">See All</a>
                         </div>
                     </div>
                 </div>
