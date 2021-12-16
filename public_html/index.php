@@ -197,9 +197,9 @@
                 <hr class="light">
                 <div class="social-icons-wrapper row text-center ">
                     <div class="social">
-                        <a href="#"><i class="fa fa-facebook"></i> </a>
-                        <a href="#"><i class="fa fa-instagram"></i> </a>
-                        <a href="#"><i class="fa fa-youtube"></i> </a>
+                        <a href="https://el-gr.facebook.com"><i class="fa fa-facebook"></i> </a>
+                        <a href="https://www.instagram.com"><i class="fa fa-instagram"></i> </a>
+                        <a href="https://www.youtube.com"><i class="fa fa-youtube"></i> </a>
                     </div>
                 </div>
               </div>
