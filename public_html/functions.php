@@ -149,7 +149,7 @@
 
     function getUsers($con){
         echo "<div class='comment-box' style='text-align:center'>";
-            echo "<form class='del-form' method='POST' action='".deleteUsers($con)."'>
+            echo "<form class='del-form' method='POST' action='".@deleteUsers($con)."'>
                 <input name='email' type='email' style='margin-right:10px;border:1px solid black;border-radius:5px'>
                 <button type='submit' name='userDelete'>Delete</button>
             </form>";

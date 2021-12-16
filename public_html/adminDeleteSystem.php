@@ -63,11 +63,11 @@
                 <h1 style="text-align: center; margin-top:5px;">User Search</h1>
                 <?php getUsers($con)?>
                 <h1 style="text-align: center; margin-top:5px;">Reservations</h1>
-                <?php refreshReservations($con) ?>
+                <?php @refreshReservations($con) ?>
             </div>
             <div class="col-md-6">
                 <h1 style="text-align: center;margin-top:5px;">All Comments</h1>
-                <?php getAllCommentsAdmin($con)?>
+                <?php @getAllCommentsAdmin($con)?>
             </div>
         </div>
     </div>
