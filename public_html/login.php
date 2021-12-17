@@ -10,17 +10,17 @@
     $email = $_POST['email'];
 	$password = $_POST['password'];
 	//hash
-	$unhashedPass = md5($password);
-    $regex = '/^([a-zA-Z0-9#.]+@+[a-zA-Z]+(\.)+[a-zA-Z]{2,3})$/';
+	$hashedPass = md5($password);
+    $mail_regex = '/^([a-zA-Z0-9#.]+@+[a-zA-Z]+(\.)+[a-zA-Z]{2,3})$/';
 
-    if(!empty($email) && !empty($password) && preg_match($regex,$email)){
+    if(!empty($email) && !empty($password) && preg_match($mail_regex,$email)){
         //read from db
         $query = "select * from users where email = '$email' limit 1";
         $result = mysqli_query($con,$query);
         if($result){
             if($result && mysqli_num_rows($result) > 0){
                 $user_data = mysqli_fetch_assoc($result);
-                if($user_data['password'] === $unhashedPass){
+                if($user_data['password'] === $hashedPass){
 
                 	if ($user_data['type'] === "Admin") {
                 		$_SESSION['user_id'] = $user_data['user_id'];
