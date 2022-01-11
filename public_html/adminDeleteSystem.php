@@ -43,7 +43,7 @@
                         <a class="nav-link" href="Admin.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="menu.php">Food Menu</a>
+                        <a class="nav-link" href="adminmenu.php">Food Menu</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" target="_blank" href="admin_reservation_form.php">Reservations</a>
