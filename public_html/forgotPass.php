@@ -1,5 +1,5 @@
 <?php
-    include("connection.php");
+    require_once("connection.php");
     include("functions.php");
 
     $error = '';

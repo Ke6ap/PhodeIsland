@@ -1,6 +1,6 @@
 <?php
     session_start();
-    include("connection.php");
+    require_once("connection.php");
     include("functions.php");
     date_default_timezone_set('Europe/Athens');
 
