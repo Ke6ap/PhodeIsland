@@ -7,9 +7,7 @@
 
     //Check for administator
     $Administrator = check_Admin($user_data['type']);
-    if($Administrator == 1){
-        $_SESSION;
-    }else{
+    if(!($Administrator == 1)){
         header("Location:logout.php");
         die;
     }

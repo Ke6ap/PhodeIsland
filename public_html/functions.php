@@ -66,6 +66,9 @@
             $sql = "INSERT INTO comments (user_id,email,name,comment,date)
                 VALUES ('$user_id','$email','$name','$comment','$date')";
             $result = $con->query($sql);
+            echo '<script type="text/javascript">';
+            echo 'alert("Your comment has been submited!")';
+            echo '</script>';
         }
     }
 

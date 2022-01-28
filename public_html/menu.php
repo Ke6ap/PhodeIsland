@@ -5,7 +5,6 @@
     date_default_timezone_set('Europe/Athens');
 
     $user_data = check_login($con);
-    $_SESSION
 ?>
 
 <!DOCTYPE html>
